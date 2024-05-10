@@ -22,10 +22,9 @@ html,body{
 }
 
 header{
-    
-    background-color: black;
-    color: white;
+    color: black;
     text-align: center;
+    background-image:linear-gradient(to bottom, rgb(255, 255, 255), rgba(255, 255, 255, 0.671));
 }
 
 header>h1{
@@ -59,10 +58,15 @@ section{
     font-size: 3.5vw;
 }
 
+section>p{
+    padding-bottom: 1em;
+}
 
 section.normal{
-    background-color: white;
+    
+    background: white url(../imagens/wallpaper004.jpg) bottom center no-repeat fixed ;
     color: black;
+
 }
 
 
@@ -70,16 +74,40 @@ section.normal{
 section.imagem{
     background-color: rgba(0, 0, 0, 0.349);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.288);
     
     
 }
 
+
+
 section.imagem>p{
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.301);
     padding: 5px;
     
+    
 }
+
+
+section.imagem#primeiro{
+    background-image: url(../imagens/background001.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+section.imagem#segunda{
+    background-image: url(../imagens/background002.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+
 
 footer{
     background-color: black;
